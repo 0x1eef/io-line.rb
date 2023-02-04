@@ -1,6 +1,6 @@
 ## About
 
-io-line.rb is an IO library that can reuse one or more lines of output.
+io-line.rb is an IO library that can reuse one or more lines of output. <br>
 The implementation uses the
 [io-console](https://www.rubydoc.info/gems/io-console)
 library from Ruby's stdlib.
@@ -11,7 +11,7 @@ library from Ruby's stdlib.
 
 The following example counts from 1 up to 100. The number from the previous
 iteration is replaced with a number from the current iteration, and the same
-line is reused until the iteration is complete. It is possible to end the
+line is reused until the iteration is completed. It is possible to end the
 current line, and move onto the next line with the `IO::Line#end` method.
 
  ```ruby

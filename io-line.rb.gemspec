@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.licenses = ["BSD0L"]
   gem.files = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
-  gem.summary = "An IO library that can reuse one or lines of output"
+  gem.summary = "Line manipulation via io-console"
   gem.description = gem.summary
   gem.add_runtime_dependency "io-console", "~> 0.5"
 end

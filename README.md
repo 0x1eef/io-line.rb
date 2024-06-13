@@ -12,7 +12,7 @@ library from Ruby's stdlib.
 The following example counts from 1 up to 100. The number from the previous
 iteration is replaced with a number from the current iteration, and the same
 line is reused until the iteration is completed. It is possible to end the
-current line, and move onto the next line with the `IO::Line#end` method.
+current line, and move onto the next line with the `IO::Line#end` method:
 
  ```ruby
 require "io/line"
@@ -24,19 +24,24 @@ end
 line.end
 ```
 
-## Sources
+## Documentation
 
-* [Source code (github)](https://github.com/0x1eef/io-line.rb)
-* [Source code (gitlab)](https://gitlab.com/0x1eef/io-line.rb)
+A complete API reference is available at
+[0x1eef.github.io/x/io-line.rb](https://0x1eef.github.io/x/io-line.rb)
 
 ## Install
 
-io-line.rb is distributed as a RubyGem through its git repositories. <br>
-[GitHub](https://github.com/0x1eef/io-line.rb),
-and
-[GitLab](https://gitlab.com/0x1eef/io-line.rb)
-are available as sources.
+io-line.rb can be installed via rubygems.org:
+
+    gem install io-line.rb
+
+## Sources
+
+* [GitHub](https://github.com/0x1eef/io-line.rb)
+* [GitLab](https://gitlab.com/0x1eef/io-line.rb)
 
 ## License
 
-BSD0L.
+[BSD Zero Clause](https://choosealicense.com/licenses/0bsd/)
+<br>
+See [LICENSE](./LICENSE)
